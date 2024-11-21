@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: mongodb-exporter
-        image: registry.cn-shenzhen.aliyuncs.com/moying/mongodb-exporter:latest
+        image: donglog/mongodb-exporter:latest
         ports:
         - containerPort: 8080
           name: http-metrics
