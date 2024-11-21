@@ -3,7 +3,7 @@
 ## mongodb-exporter
 dokcer启动命令
 ```
-docker run -d -e MONGODB_URI="mongodb://账号:密码@ip:端口/?authSource=admin"  mongodb-exporter:latest 
+docker run -d -e MONGODB_URI="mongodb://账号:密码@ip:端口/?authSource=admin"  docker.io/donglog/mongodb-exporter:latest 
 ```
 kubectl 启动命令
 ```
